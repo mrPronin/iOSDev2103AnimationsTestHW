@@ -10,4 +10,6 @@
 
 @interface RITViewController : UIViewController
 
+@property (strong, nonatomic) IBOutletCollection(UIView) NSArray *views;
+
 @end
