@@ -32,10 +32,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="stB-rT-Bnb">
+                                <rect key="frame" x="66" y="238" width="188" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="gif" destination="stB-rT-Bnb" id="Fli-jy-s8g"/>
                         <outletCollection property="views" destination="0ib-QE-26m" id="chc-LY-gXL"/>
                         <outletCollection property="views" destination="CAR-dw-IbB" id="x3T-HM-iIW"/>
                         <outletCollection property="views" destination="Zmr-hM-Rjx" id="9hg-7F-caW"/>

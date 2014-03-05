@@ -7,6 +7,7 @@
 //
 
 #import "RITViewController.h"
+#import "UIImageAnimatedGIF.h"
 
 @interface RITViewController ()
 
@@ -24,6 +25,16 @@
     
     [super viewDidAppear:animated];
     
+    NSURL* path = [[NSBundle mainBundle] URLForResource:@"Minyons" withExtension:@"gif"];
+    //NSString* stringPath = [path absoluteString];
+    NSData* data = [NSData dataWithContentsOfURL:path];
+    UIImage* image = [UIImage animatedImageWithAnimatedGIFData:data];
+    self.gif.image = image;
+    
+    for (UIView* view in self.views) {
+        view.layer.cornerRadius = CGRectGetHeight(view.frame) / 4;
+    }
+    
     [self moveView:self.views withClockwiseDirection:arc4random() % 2];
 }
 
@@ -37,7 +48,7 @@
 
 - (void) moveView:(NSArray*) views withClockwiseDirection:(BOOL) clockwiseDirection {
     
-    [UIView animateWithDuration:3.f
+    [UIView animateWithDuration:2.f
                           delay:0
                         options:UIViewAnimationOptionCurveEaseInOut
                      animations:^{

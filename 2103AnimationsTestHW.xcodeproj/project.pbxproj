@@ -22,6 +22,8 @@
 		A2ED46A718C7B6A500FF3AA1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2ED468618C7B6A300FF3AA1 /* UIKit.framework */; };
 		A2ED46AF18C7B6A500FF3AA1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2ED46AD18C7B6A500FF3AA1 /* InfoPlist.strings */; };
 		A2ED46B118C7B6A500FF3AA1 /* _103AnimationsTestHWTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ED46B018C7B6A500FF3AA1 /* _103AnimationsTestHWTests.m */; };
+		A2ED46BD18C7BBF400FF3AA1 /* UIImageAnimatedGIF.m in Sources */ = {isa = PBXBuildFile; fileRef = A2ED46BC18C7BBF400FF3AA1 /* UIImageAnimatedGIF.m */; };
+		A2ED46BF18C7DF7700FF3AA1 /* Minyons.gif in Resources */ = {isa = PBXBuildFile; fileRef = A2ED46BE18C7DF7700FF3AA1 /* Minyons.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		A2ED46AC18C7B6A500FF3AA1 /* 2103AnimationsTestHWTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "2103AnimationsTestHWTests-Info.plist"; sourceTree = "<group>"; };
 		A2ED46AE18C7B6A500FF3AA1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2ED46B018C7B6A500FF3AA1 /* _103AnimationsTestHWTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _103AnimationsTestHWTests.m; sourceTree = "<group>"; };
+		A2ED46BB18C7BBF400FF3AA1 /* UIImageAnimatedGIF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageAnimatedGIF.h; sourceTree = "<group>"; };
+		A2ED46BC18C7BBF400FF3AA1 /* UIImageAnimatedGIF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageAnimatedGIF.m; sourceTree = "<group>"; };
+		A2ED46BE18C7DF7700FF3AA1 /* Minyons.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Minyons.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +119,8 @@
 		A2ED468818C7B6A300FF3AA1 /* 2103AnimationsTestHW */ = {
 			isa = PBXGroup;
 			children = (
+				A2ED46BE18C7DF7700FF3AA1 /* Minyons.gif */,
+				A2ED46BA18C7BBF400FF3AA1 /* gifCategory */,
 				A2ED469118C7B6A400FF3AA1 /* RITAppDelegate.h */,
 				A2ED469218C7B6A400FF3AA1 /* RITAppDelegate.m */,
 				A2ED469418C7B6A400FF3AA1 /* Main_iPhone.storyboard */,
@@ -153,6 +160,15 @@
 				A2ED46AD18C7B6A500FF3AA1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2ED46BA18C7BBF400FF3AA1 /* gifCategory */ = {
+			isa = PBXGroup;
+			children = (
+				A2ED46BB18C7BBF400FF3AA1 /* UIImageAnimatedGIF.h */,
+				A2ED46BC18C7BBF400FF3AA1 /* UIImageAnimatedGIF.m */,
+			);
+			path = gifCategory;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +252,7 @@
 				A2ED469E18C7B6A500FF3AA1 /* Images.xcassets in Resources */,
 				A2ED469618C7B6A400FF3AA1 /* Main_iPhone.storyboard in Resources */,
 				A2ED468D18C7B6A400FF3AA1 /* InfoPlist.strings in Resources */,
+				A2ED46BF18C7DF7700FF3AA1 /* Minyons.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2ED469318C7B6A400FF3AA1 /* RITAppDelegate.m in Sources */,
+				A2ED46BD18C7BBF400FF3AA1 /* UIImageAnimatedGIF.m in Sources */,
 				A2ED468F18C7B6A400FF3AA1 /* main.m in Sources */,
 				A2ED469C18C7B6A500FF3AA1 /* RITViewController.m in Sources */,
 			);

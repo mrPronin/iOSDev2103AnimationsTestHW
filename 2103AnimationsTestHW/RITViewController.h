@@ -12,4 +12,6 @@
 
 @property (strong, nonatomic) IBOutletCollection(UIView) NSArray *views;
 
+@property (weak, nonatomic) IBOutlet UIImageView *gif;
+
 @end
