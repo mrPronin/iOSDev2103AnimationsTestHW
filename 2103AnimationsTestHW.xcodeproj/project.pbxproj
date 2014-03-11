@@ -165,8 +165,8 @@
 		A2ED46BA18C7BBF400FF3AA1 /* gifCategory */ = {
 			isa = PBXGroup;
 			children = (
-				A2ED46BB18C7BBF400FF3AA1 /* UIImageAnimatedGIF.h */,
 				A2ED46BC18C7BBF400FF3AA1 /* UIImageAnimatedGIF.m */,
+				A2ED46BB18C7BBF400FF3AA1 /* UIImageAnimatedGIF.h */,
 			);
 			path = gifCategory;
 			sourceTree = "<group>";
@@ -493,6 +493,7 @@
 				A2ED46B618C7B6A500FF3AA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A2ED46B718C7B6A500FF3AA1 /* Build configuration list for PBXNativeTarget "2103AnimationsTestHWTests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +502,7 @@
 				A2ED46B918C7B6A500FF3AA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
